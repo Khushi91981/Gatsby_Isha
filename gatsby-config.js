@@ -6,5 +6,15 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        typeName: "WPGraphQL",
+        fieldName: "wpgraphql",
+        url: "http://demogatsby.local/graphql",
+
+    },
+    },
+  ],
 }
