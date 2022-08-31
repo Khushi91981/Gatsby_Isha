@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+header {
+    background: darkblue;
+    padding: 1rem 5vw;
+  }
+  
+  header a {
+    color: white;
+    display: inline-block;
+    margin-left: 0.95em;
+    font-weight: 700;
+   
+    text-decoration: none;
+  }
+  
+ 
+  header .home {
+    font-weight: 800;
+    margin-left: 0;
+    text-decoration: none;
+  }
+
+  .home-links{
+    font-weight: 800;
+   font-size: 18px;
+   margin-left: 0.75em;
+    text-decoration: none;
+  }
+  
+  main {
+    margin: 2rem auto;
+    max-width: 100ch;
+    width: 90vw;
+  }
+
+
+  
+  ul li {
+   
+    color: #551A8B; /* Change the color */
+   
+  }
